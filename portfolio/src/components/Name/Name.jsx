@@ -9,7 +9,7 @@ const TypingEffect = ({ text }) => {
     to: async (next) => {
       await next({ width: '100%', opacity: 1 });
     },
-    config: { duration: 11000 },
+    config: { duration: 2000 },
   });
   
   return (
@@ -19,10 +19,10 @@ const TypingEffect = ({ text }) => {
           overflow: 'hidden',
           whiteSpace: 'nowrap',
           ...props,
-          fontSize: '70px',
+          fontSize: '50px',
           color: 'gold',
-          fontFamily: 'fantasy, monospace',
-          fontWeight: 'bold',
+          fontFamily: 'Chakra Petch, sans-serif',
+          fontWeight: '100',  
         }}
       >
         {text}

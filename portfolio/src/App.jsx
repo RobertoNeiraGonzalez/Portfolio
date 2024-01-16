@@ -1,13 +1,16 @@
 import './App.css'
-import TypingEffect from './components/Name/Name'
+
+
+import router from './router/router'
+
+import { RouterProvider } from 'react-router-dom'
 
 function App() {
 
-  const textToType = 'ROBERTO NEIRA'
 
   return (
     <>
-      <TypingEffect text={textToType} />
+     <RouterProvider router={router} /> 
     </>
   )
 }
