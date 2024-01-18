@@ -1,7 +1,5 @@
 import { Card, CardContent, CardActions, Typography, Button, Link } from '@mui/material';
 
-
-
 export default function MediaCard() {
 
   return (

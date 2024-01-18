@@ -1,5 +1,5 @@
-import MediaCard from '../../../components/CardProject/CardProject'
-import './Project.css'
+import MediaCard from '../../components/CardProject/CardProject'
+import './proyecto.css'
 
 function Project() {
   return (

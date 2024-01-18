@@ -1,4 +1,4 @@
-import './Home.css'
+import './main.css'
 
 import TypingEffect from '../../components/Name/Name'
 
@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 import Divider from '@mui/material/Divider'
 
 
-function Home() {
+function Main() {
 
   const [showSecondTypingEffect, setShowSecondTypingEffect] = useState(false);
   const [showThirdTypingEffect, setShowThirdTypingEffect] = useState(false)
@@ -60,4 +60,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Main
