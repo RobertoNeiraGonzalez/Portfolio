@@ -5,7 +5,7 @@ import { useSpring, animated } from 'react-spring';
 const TypingEffect = ({ text }) => {
 
   const props = useSpring({
-    from: { width: '0%', opacity: 0 },
+    from: { width: '98%', opacity: 0 },
     to: async (next) => {
       await next({ width: '100%', opacity: 1 });
     },
@@ -20,7 +20,7 @@ const TypingEffect = ({ text }) => {
           whiteSpace: 'nowrap',
           ...props,
           fontSize: '50px',
-          color: 'gold',
+          color: '#D1C15F',
           fontFamily: 'Chakra Petch, sans-serif',
           fontWeight: '100',  
         }}

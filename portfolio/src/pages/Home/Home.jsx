@@ -38,7 +38,7 @@ function Home() {
         <h1>ROBERTO NEIRA</h1>
       </div>
 
-      <Divider sx={{ borderColor: 'gold', marginTop: 2 }} />
+      <Divider sx={{ borderColor: '#CAB84A', marginTop: 2 }} />
 
       <div className='container-main'>
         <a href="project">

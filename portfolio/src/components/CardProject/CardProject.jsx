@@ -6,28 +6,52 @@ export default function MediaCard() {
 
   return (
 
-    <Card sx={{ 
-      width: 500, 
-      height: 400, 
-      backgroundColor: '#242424',
-      borderRadius: 10, 
-      textAlign: 'center', 
-      color: 'gold',
-      margin: 10 }}>
+    <Card sx={{
+      width: 500,
+      height: 400,
+      backgroundColor: '#0F272F',
+      borderRadius: 10,
+      textAlign: 'center',
+      color: '#2D809F',
+      margin: 10
+    }}>
       <CardContent>
-        <Typography gutterBottom variant="h4" component="div">
+
+        <Typography
+          gutterBottom variant="h3"
+          component="div"
+          fontFamily='Chakra Petch'>
           Way Home
         </Typography>
-        <Typography variant="body2" color="white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque, sunt quia doloribus distinctio nemo omnis doloremque porro illum facilis obcaecati dolores, voluptates incidunt! Deserunt blanditiis ipsum, repellendus aliquid voluptatem amet molestias consectetur quibusdam nobis? Rerum molestiae unde dolore exercitationem facilis saepe minima quae quas libero aliquam. Odit numquam, velit quis sunt nam vel odio laudantium repellendus ad, suscipit eius quasi corrupti iste ex tempora aperiam ipsum. Temporibus ipsa officia rerum porro, necessitatibus dignissimos expedita nam adipisci commodi optio corporis laboriosam nihil veritatis iusto ratione odio dolores enim molestias ea eum tenetur reprehenderit asperiores nulla. Ducimus quod laudantium reprehenderit ea?
+
+        <Typography
+          variant="body2"
+          color="#2D809F">
+          Decidimos desarrollar este proyecto con el fin de ayudar a perros y gatos que muchas veces sufren de soledad y peor aún el abandono. <br />
+          Con esta comunidad creemos que se puede ayudar a personas que por las razones que sean tengan las opciones de ponerlo en acogida por una temporada,
+          ya sea porque se tiene que mudar temporalmente y no puede llevarse a su animal o porque necesitan una largas vacaciones,
+          la comunidad está llena de personas altruístas que aman a los animales y colaboran mutuamente, digamos un "Hoy por ti, mañana por mí". <br />
+          Y para aquellos casos más graves en los que definitivamente no se pueden hacer más cargo de sus mascotas, podemos buscarle una familia nueva en esta
+          comunidad sin tener que llegar a dejarlo en un albergue o protectora, evitando el sufrimiento al animal.
         </Typography>
+
       </CardContent>
+
       <CardActions>
-        <Button size="small">
-          <Link href="https://sprightly-arithmetic-ea72f8.netlify.app/login" target="_blank" rel="noopener" >
+
+        <Button
+          size="small"
+          color='primary' >
+          <Link
+            href="https://sprightly-arithmetic-ea72f8.netlify.app/login"
+            target="_blank"
+            rel="noopener"
+            color='#2D809F'
+            textAlign='center'>
             Visitar sitio web
           </Link>
         </Button>
+        
       </CardActions>
     </Card>
 
