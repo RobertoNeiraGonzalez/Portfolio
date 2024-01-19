@@ -5,6 +5,7 @@ import TypingEffect from '../../components/Name/Name'
 import { useState, useEffect } from 'react'
 
 import Divider from '@mui/material/Divider'
+import { Link } from 'react-router-dom';
 
 
 function Main() {
@@ -35,7 +36,7 @@ function Main() {
   return (
     <>
       <div className='title'>
-        <h1>ROBERTO NEIRA</h1>
+        <h1>ROBERT<Link to='/login'>O</Link> NEIRA</h1>
       </div>
 
       <Divider sx={{ borderColor: '#CAB84A', marginTop: 2 }} />
