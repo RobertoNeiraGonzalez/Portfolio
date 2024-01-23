@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import Home from '../pages/main/main'
 import Project from '../pages/proyecto/proyecto'
 import SignInSide from '../pages/login/login'
+import Background from '../pages/background/background'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/login',
     element: <SignInSide />
+  },
+  {
+    path: '/background',
+    element: <Background />
   },
 
 
