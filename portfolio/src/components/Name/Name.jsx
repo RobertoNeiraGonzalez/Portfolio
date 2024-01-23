@@ -19,7 +19,7 @@ const TypingEffect = ({ text }) => {
           overflow: 'hidden',
           whiteSpace: 'nowrap',
           ...props,
-          fontSize: '50px',
+          fontSize: '40px',
           color: '#D1C15F',
           fontFamily: 'Chakra Petch, sans-serif',
           fontWeight: '100',  

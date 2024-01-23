@@ -8,13 +8,12 @@ const router = createBrowserRouter([
     path: '/',
     element: <Home />,
   },
-
   {
-    path: 'project',
+    path: '/project',
     element: <Project />
   },
   {
-    path: 'login',
+    path: '/login',
     element: <SignInSide />
   },
 

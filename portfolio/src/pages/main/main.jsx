@@ -1,16 +1,18 @@
 import './main.css'
-
 import TypingEffect from '../../components/Name/Name'
 
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 
 import Divider from '@mui/material/Divider'
-import { Link } from 'react-router-dom';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 
 function Main() {
 
-  const [showSecondTypingEffect, setShowSecondTypingEffect] = useState(false);
+  const [showSecondTypingEffect, setShowSecondTypingEffect] = useState(false)
   const [showThirdTypingEffect, setShowThirdTypingEffect] = useState(false)
 
   useEffect(() => {
@@ -37,9 +39,9 @@ function Main() {
     <>
       <div className='title'>
         <h1>ROBERT<Link to='/login'>O</Link> NEIRA</h1>
+        <Divider sx={{ borderColor: '#CAB84A', marginTop: 2 }} />
+        <h2>Full-Stack Developer</h2>
       </div>
-
-      <Divider sx={{ borderColor: '#CAB84A', marginTop: 2 }} />
 
       <div className='container-main'>
         <a href="project">
@@ -55,6 +57,16 @@ function Main() {
             <TypingEffect text={textToTypeThird} />
           )}
         </a>
+
+        <div className='icon'>
+          <Link to='https://github.com/RobertoNeiraGonzalez'>
+            <GitHubIcon sx={{ color: '#CAB84A', marginRight: 8 }} />
+          </Link>
+          <Link to='https://www.linkedin.com/in/robertoneiragonzalez/'>
+            <LinkedInIcon sx={{ color: '#CAB84A' }} />
+          </Link>
+
+        </div>
       </div>
 
     </>
